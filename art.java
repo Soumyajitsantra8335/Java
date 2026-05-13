@@ -6,4 +6,5 @@ public class art {
         System.out.println(a+b);
         
     }
+
 }
