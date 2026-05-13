@@ -14,6 +14,9 @@ public class ope {
         int d=m();
         int i=n();
         int j=o();
+        int k=p();
+        int l=q();
+        int r=s();
         System.out.println(j);
     }
     //Addition Operator
@@ -54,9 +57,53 @@ public class ope {
      System.out.println("Logical OR Operator = "+(g>5 || g>25));
      System.out.println("Logical XOR Operator = "+(!(g>5)));
      return 0;
+    }
+    //Unary Operator
+    public static int p(){
+        System.out.println("Unary Operator");
+        int h=20;
+        h++;
+        System.out.println("Increment = "+h);
+        h--;
+        System.out.println("Decrement = "+h);
+        ++h;
+        System.out.println("Prefix = "+h);
+        --h;
+        System.out.println("Postfix = "+h);
+        return 1;
+    }
+    //Bitwise operator
+    public static int q(){
+        System.out.println("Bitwise operator");
+        int i=10;
+        int j=5;
+        System.out.println("AND Operator = " +(i & j));
+        System.out.println("Or Operator = " +(i | j));
+        System.out.println("XOR Operator = " +(i ^ j));
+        System.out.println("Not Operator = " +(~i));
+        System.out.println("Left shift = " +(i << 1));
+        System.out.println("Right Shift = " +(j >> 1));
+        return 0;
+    }
+    //Ternary Operator
+    public static int s(){
+        System.out.println("Ternary operator");
+        int num= 5;
+        int num2= 10;
+        int big = (num > num2)? num :num2;
+
+        System.out.println(big);
+        return 0;
+
+
 
 
     }
+
+
+
+
+    
 }
 
 
