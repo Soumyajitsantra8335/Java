@@ -6,7 +6,7 @@ public class data2 {
         for(int b:r){
             System.out.print(b);
             for(int c:r){
-                System.out.println(c);
+                System.out.print(c);
             }
         }
     }
