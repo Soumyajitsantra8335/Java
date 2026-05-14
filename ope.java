@@ -17,6 +17,8 @@ public class ope {
         int k=p();
         int l=q();
         int r=s();
+        int v=t();
+        int w=u();
         System.out.println(j);
     }
     //Addition Operator
@@ -99,11 +101,26 @@ public class ope {
 
 
     }
+    //String operator
+    public static int t(){
+    System.out.println("Hello "+"My "+"name "+"is "+"soumo ");
+    return 1;
+    }
+
+    //instanceof
+    public static int u(){
+        String s="Soumo";
+        System.out.println(s);
+        return 0;
+    }
 
 
 
 
     
 }
+
+
+
 
 
