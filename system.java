@@ -8,7 +8,7 @@ public class system {
         var a = hello.nextLine();
         System.out.println(a);
 
-    var b=hello.hasNextLine();
+    var b=hello.hasNextInt();
         System.out.println(b);
     
     }
