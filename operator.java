@@ -22,9 +22,6 @@ public class operator {
         c+=2;
         System.out.println(c);
         return 0;
-       // c-=2;
-        System.out.println(c-=2);
-        return c;
         
         
 
