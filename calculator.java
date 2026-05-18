@@ -24,6 +24,9 @@ public class calculator {
         System.out.println("number Is Zero");
     }
 
+
+    .args
+    
     
     }
 }
