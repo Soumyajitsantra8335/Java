@@ -7,16 +7,16 @@ public class cal2{
     int a, b;
     char operator;
 
-    System.out.println("Enter Your first number = ");
+    System.out.print("Enter Your first number = ");
     a=c.nextInt();
 
     System.out.println("Enter your Operator (+,-,*,/,%): ");
     operator=c.next().charAt(0);
     
-    System.out.println("Enter Your Second Number");
+    System.out.print("Enter Your Second Number = ");
     b=c.nextInt();
 
-    int result = 1;
+    int result = 0;
 
     switch(operator){
         case '+':
