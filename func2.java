@@ -14,11 +14,11 @@
     } 
     public static void main(String[] args) {
         func a = new func();
-        System.out.println(a.add(2,3));
-        System.out.println(a.sub(1,3));
-        System.out.println(a.mul(3,3));
-        System.out.println(a.div(2,3));
-
+        System.out.println("Addition = "+a.add(2,3));
+        System.out.println("Subtraction = "+a.sub(1,3));
+        System.out.println("Multipilication = "+a.mul(3,3));
+        System.out.println("Division = "+a.div(2,3));
+       
     }
     
 }
