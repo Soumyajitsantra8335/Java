@@ -12,12 +12,16 @@
     int div(int a, int b){
         return a / b;
     } 
+    double add1(double a, double b){
+        return a + b;
+    }
     public static void main(String[] args) {
-        func a = new func();
+        func2 a = new func2();
         System.out.println("Addition = "+a.add(2,3));
         System.out.println("Subtraction = "+a.sub(1,3));
         System.out.println("Multipilication = "+a.mul(3,3));
         System.out.println("Division = "+a.div(2,3));
+        System.out.println("Double value = "+a.add1(5.5,6.2));
        
     }
     
