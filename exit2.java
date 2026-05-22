@@ -14,7 +14,7 @@ public class exit2 {
           
         }
 
-  System.out.println("Ent of programme");
+  System.out.println("End of programme");
     }
     
 }
