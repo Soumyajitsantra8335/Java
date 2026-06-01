@@ -1,7 +1,7 @@
 class Mythread extends Thread {
     public void run(){
         try{
-            for (int i=1; i<=3; i++){
+            for (int i=1; i<=5; i++){
                 System.out.println(getName() + " running");
                 Thread.sleep(1000);
             }
