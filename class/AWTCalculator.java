@@ -68,6 +68,9 @@ public class AWTCalculator extends Frame implements ActionListener {
 
         // Close button functionality
         addWindowListener(new WindowAdapter() {
+
+
+            
             public void windowClosing(WindowEvent we) {
                 dispose();
             }
