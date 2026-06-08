@@ -1,12 +1,12 @@
 import java.awt.*;
 import java.awt.event.*;
-//import javax.swing.*;
+import javax.swing.*;
 
-public class cal2 extends Frame implements ActionListener{
+public class cal3j extends JFrame implements ActionListener{
     TextField display;
     String firstNum = "" , operator = "";
 
-    public cal2(){
+    public cal3j(){
 
         setTitle("Calculator");
         setSize(700,550);
@@ -32,9 +32,12 @@ public class cal2 extends Frame implements ActionListener{
         };
 
         for (String text : buttons) {
-            Button btn = new Button(text);
+            //Button btn = new Button(text);
+            JButton btn = new JButton(text);
             btn.setFont(new Font("Arial", Font.BOLD, 45));
             btn.setPreferredSize(new Dimension(80,80));
+            btn.setBorder(BorderFactory.createLineBorder(Color.WHITE, 1, true));
+            btn.setFocusPainted(false);
            // btn.fillRoundRect(0, 0, getWidth(), getHeight(), 20, 20);
            //fillRoundRect(0, 0, getWidth(), getHeight(), 20, 20);
             btn.addActionListener(this);
@@ -119,8 +122,9 @@ public class cal2 extends Frame implements ActionListener{
         }
     }
     public static void main(String[] args){
-        new cal2();
+        new cal3j();
     }
 
 }
+
 
