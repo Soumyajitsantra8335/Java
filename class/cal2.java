@@ -32,7 +32,7 @@ public class cal2 extends Frame implements ActionListener{
 
         for (String text : buttons) {
             Button btn = new Button(text);
-            btn.setFont(new Font("Arial", Font.BOLD, 28));
+            btn.setFont(new Font("Arial", Font.BOLD, 45));
             btn.setPreferredSize(new Dimension(80,80));
             btn.addActionListener(this);
             
